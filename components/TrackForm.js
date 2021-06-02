@@ -39,7 +39,7 @@ const TrackForm = () => {
         {!recording && locations.length ? (
           <FormButton buttonTitle="Save Recording" onPress={saveTrack} />
         ) : null}
-        <FormButton buttonTitle="Send" onPress={() => sendMessage(locations)}/>
+      
 
       </View>
     </SafeAreaView>
